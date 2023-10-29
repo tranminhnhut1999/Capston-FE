@@ -1,12 +1,18 @@
-import logo from "./logo.svg";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Router from "./routes/Router";
-import { BrowserRouter } from "react-router-dom";
+import AdminTemplate from "./templates/AdminTemplate";
+import AdminUser from "./pages/AdminUser/AdminUser";
+import AdminCourse from "./pages/AdminCourse/AdminCourse";
 
 function App() {
   return (
     <BrowserRouter>
-      <Router />
+      <Routes>
+        <Route path="/admin" element={<AdminTemplate />}>
+          <Route index element={<AdminUser />} />
+          <Route path="/admin/course" element={<AdminCourse />} />
+        </Route>
+      </Routes>
     </BrowserRouter>
   );
 }
