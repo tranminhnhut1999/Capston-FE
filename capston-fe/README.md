@@ -7,7 +7,7 @@ npm install
 
 npm start
 
-# link web deploy: https://elearning-school.web.app/
+# link web deploy: https://elearning-study-07.web.app/
 
 
 # Account client:
