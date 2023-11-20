@@ -14,7 +14,7 @@ npm start
 account: quynhla
 password: QuynhLa98!
 
-# Libk admin: https://elearning-school.web.app/admin
+# Libk admin: https://elearning-study-07.web.app/admin
 # Account admin
 account: languyenquynh
 password: QuynhLa98!
